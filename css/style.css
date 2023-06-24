@@ -1,0 +1,88 @@
+/*CSS UNIVERSAL PARA TODA A PÁGINA*/
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&family=Sigmar&display=swap");
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/*CSS DO MENU HORIZONTAL*/
+#menu-h {
+    background-color: #a47c67;
+}
+
+#menu-h ul {
+    max-width: 80%;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul img {
+    height: 50px;
+    width: 50px;
+}
+
+#menu-h ul li a {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Share Tech", sans-serif;
+    font-size: 28px;
+    color: #622d16;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.8s;
+}
+
+h1 {
+    font-family: "Share Tech", sans-serif;
+    font-size: 28px;
+    color: #4c3434;
+}
+
+#menu-h ul li a:hover {
+    background-color: #c2976f;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: #c2976f;
+}
+
+body {
+    background-color: #f9f2ea;
+}
+
+
+
+body,
+html {
+    height: 100%;
+}
+
+/*CSS PARA AS IMAGENS PEQUENAS*/
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.column img {
+    border-radius: 5%;
+    width: 100px;
+    padding: 10px;
+    border: 3px solid #ad5959;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
